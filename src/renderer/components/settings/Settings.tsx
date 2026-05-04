@@ -130,7 +130,7 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
             key: "enableTaskbarFlashing",
             title: "Enable Taskbar Flashing",
             description: "Flashes the app in your taskbar when you have new notifications.",
-            defaultValue: true
+            defaultValue: false
         }
     ],
     Miscellaneous: [
