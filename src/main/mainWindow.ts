@@ -30,7 +30,7 @@ import { makeLinksOpenExternally } from "./utils/makeLinksOpenExternally";
 import { applyDeckKeyboardFix, askToApplySteamLayout, isDeckGameMode } from "./utils/steamOS";
 import { ensureVencordFiles, vencordSupportsSandboxing } from "./utils/vencordLoader";
 import { VENCORD_FILES_DIR } from "./vencordFilesDir";
-import { initMenuBar as initDefaultMenuBar } from "popupMenus";
+import { initMenuBar as initDefaultMenuBar } from "windowMenus";
 
 let isQuitting = false;
 

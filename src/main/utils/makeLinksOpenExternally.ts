@@ -10,7 +10,7 @@ import { DISCORD_HOSTNAMES } from "main/constants";
 import { Settings } from "../settings";
 import { createOrFocusPopup, setupPopout } from "./popout";
 import { execSteamURL, isDeckGameMode, steamOpenURL } from "./steamOS";
-import { initBrowserPopupMenuBar } from "popupMenus";
+import { initBrowserPopupMenuBar } from "windowMenus";
 
 export function handleExternalUrl(url: string, protocol?: string): { action: "deny" | "allow" } {
     if (protocol == null) {
